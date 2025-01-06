@@ -5,5 +5,5 @@
 // Generated on: 2020.11.04 at 11:05:52 AM EST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.w3.org/1999/xlink", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://www.w3.org/1999/xlink", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package org.w3.xlink.v1999;

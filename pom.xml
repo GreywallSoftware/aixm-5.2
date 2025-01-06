@@ -20,46 +20,4 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>io.spring.repo.maven.release</id>
-            <url>http://repo.spring.io/release/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>veoci-m2-repo</id>
-            <name>Veoci Maven Repository</name>
-            <url>https://m2.veoci.com/mvn</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>veoci-m2-repo-upload</id>
-            <name>Veoci Maven Repository</name>
-            <url>sftp://veocimvn@build.ec2.veoci.com:22/home/veocimvn/mvn/repository</url>
-            <uniqueVersion>false</uniqueVersion>
-            <layout>default</layout>
-        </repository>
-    </distributionManagement>
-
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ssh</artifactId>
-                <version>3.4.3</version>
-            </extension>
-        </extensions>
-    </build>
-
 </project>
